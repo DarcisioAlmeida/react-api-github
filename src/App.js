@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="container text-center">
-      <h1 className="py-5 text-uppercase">Github profile</h1>
+      <h1 className="py-5 text-uppercase text-primary">Github profile</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <div className="input-group">
@@ -31,7 +31,7 @@ function App() {
               onChange={handleChange}
             />
             <span className="input-group-btn">
-              <button type="submit" className="btn btn-success m-2 p-2">
+              <button type="submit" className="btn btn-primary">
                 Search
               </button>
             </span>
@@ -56,7 +56,7 @@ function App() {
               height="200px"
             />
             <h1 className="pt-5">
-              <a href="https://github.com/washingtonsoares" target="_new">
+              <a href="https://github.com/DarcisioAlmeida" target="_new">
                 {userData.name}
               </a>
             </h1>
